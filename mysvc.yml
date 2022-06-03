@@ -9,7 +9,7 @@ spec:
   ports:
   - port: 8080
     nodePort: 30001
-    Protocol: TCP
+    protocol: TCP
   selector:
     app: mylogin
 
